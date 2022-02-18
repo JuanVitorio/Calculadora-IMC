@@ -16,19 +16,19 @@ function calcular(){
       classificacao = 'abaixo do peso.'
       cor.style.background = '#ff8585';
 
-    }else if(resultado > 18.5 && resultado < 25){
+    }else if(resultado < 25){
       classificacao = 'com peso ideal.'
       cor.style.background = 'grey'
 
-    }else if(resultado > 25 && resultado < 30){
+    }else if(resultado < 30){
       classificacao = 'acima do peso.'
       cor.style.background = 'grey'
 
-    }else if(resultado > 30 && resultado < 35){
+    }else if(resultado < 35){
       classificacao = 'com obesidade grau I.'
       cor.style.background = '#ff8585';
 
-    }else if(resultado > 35 && resultado < 40){
+    }else if(resultado < 40){
       classificacao  = 'com obesidade grau II'
       cor.style.background = '#ff6161';
       
