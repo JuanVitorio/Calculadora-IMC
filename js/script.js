@@ -35,7 +35,7 @@ function calcular(){
       cor.style.background = '#ff3c3c'
     }
     
-  resu.innerHTML = `${nome.value}, seu IMC é de ${resultado}e você está ${classificacao}`
+  resu.innerHTML = `${nome.value}, seu IMC é de ${resultado} e você está ${classificacao}`
 
   }
 }

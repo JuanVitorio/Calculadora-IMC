@@ -42,6 +42,7 @@ body{
   font-size: .7em;
   border: none;
   border-radius: 5px;
+  transition: 0.1s linear;
 }
 
 #estrutura-calculadora button:hover{
@@ -61,6 +62,7 @@ body{
   width: 400px;
   margin: auto;
   padding: 5px;
+  transition: 0.1s linear;
 }
 
 #estrutura-calculadora input:focus{
