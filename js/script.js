@@ -14,7 +14,7 @@ function calcular(){
 
     if(resultado < 18.5){
       classificacao = 'abaixo do peso.'
-      cor.style.background = 'grey'
+      cor.style.background = '#ff8585'
 
     }else if(resultado > 18.5 && resultado < 25){
       classificacao = 'com peso ideal.'
